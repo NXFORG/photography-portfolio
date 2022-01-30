@@ -4,9 +4,15 @@
     width: 100%;
     text-align: center;
     color: var(--verydarkgrey);
-    padding: 10px;
     font-family: 'Roboto Condensed', sans-serif;
     border-top: 1px solid var(--verydarkgrey);
+    background-color: var(--verydarkgrey);
+}
+
+.footer > h1 {
+    color: #fff;
+    margin: 3px 0 3px 0;
+    font-size: 1em;
 }
 
 @media only screen and (max-width: 450px) {
