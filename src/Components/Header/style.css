@@ -41,6 +41,12 @@ nav {
     background-color: var(--verydarkgrey);
 }
 
+.navLink:hover{
+    background-color: #fff;
+    color: var(--verydarkgrey);
+    transition: background-color 0.5s ease-in;
+}
+
 #firstLink {
     border-left: 3px solid black;
 }
