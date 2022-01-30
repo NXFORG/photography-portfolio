@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&family=Roboto:wght@300&display=swap');
+
+:root {
+    --darkblue: #081326;
+    --meddarkblue: #182654;
+    --medblue: #192f78;
+    --medlightblue: #3252a8;
+    --darkred: rgb(104, 15, 15);
+    --verydarkgrey: #2b2828;
+    --navgrey: #4d4a49;
+}
+
+* {
+    /*font-family: 'Shippori Antique B1', sans-serif;*/
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
