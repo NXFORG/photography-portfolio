@@ -1,0 +1,15 @@
+.displayPicture {
+    max-width: 100%;
+    border: 5px solid #fff;
+}
+
+.largePicture {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    z-index: 999;
+    padding: 100px;
+    background-color: black;
+}
