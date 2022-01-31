@@ -29,7 +29,57 @@ nav {
     font-size: 0.7em;
 }
 
+#linkContainer {
+    margin-right: 50px;
+}
+
 .navLink {
-    margin-right: 20px;
-    font-size: 1.2em;
+    font-size: 1.3em;
+    border: 3px solid black;
+    border-left: 0;
+    padding: 15px 20px 15px 20px;
+    background-color: var(--verydarkgrey);
+}
+
+.navLink:hover{
+    background-color: #fff;
+    color: var(--verydarkgrey);
+    transition: background-color 0.5s ease-in;
+}
+
+#firstLink {
+    border-left: 3px solid black;
+}
+
+@media only screen and (max-width: 800px) {
+    #navBg {
+        display: block;
+    }
+    
+    #linkContainer {
+        display: flex;
+        width: 80%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    #linkContainer {
+        display: block;
+    }
+    .navLink {
+        display: block;
+        border-left: 3px solid black;
+        border-top: 0;
+        text-align: center;
+    }
+
+    #firstLink {
+        border-top: 3px solid black;
+    }
 }
