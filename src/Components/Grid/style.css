@@ -14,3 +14,13 @@
     padding-left: 5px;
     font-family: 'Roboto Condensed', sans-serif;
 }
+
+#noPicturesHeader {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+@media only screen and (max-width: 450px) {
+    #pictureGrid {
+        display: block;
+    }
+}

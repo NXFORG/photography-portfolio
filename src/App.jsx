@@ -11,6 +11,9 @@ function App (){
             <Header />
             <Routes>
                 <Route exact path='/' element={<Pages.Home />}/>
+                <Route exact path='/photography' element={<Pages.Photography />}/>
+                <Route exact path='/illustration' element={<Pages.Illustration />}/>
+                <Route exact path='/digital' element={<Pages.Digital />}/>
             </Routes>
             <Footer />
         </div>
