@@ -1,6 +1,9 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import * as Pages from './pages/index';
+import { Home } from './pages/home';
+import { Photography } from './pages/Photography';
+import { Illustration } from './pages/Illustration';
+import { Digital } from './pages/Digital';
 import { Header } from './Components/index';
 import { Footer } from './Components/index';
 import './style.css';
@@ -10,10 +13,10 @@ function App (){
         <div id='app'>
             <Header />
             <Routes>
-                <Route exact path='/' element={<Pages.Home />}/>
-                <Route exact path='/photography' element={<Pages.Photography />}/>
-                <Route exact path='/illustration' element={<Pages.Illustration />}/>
-                <Route exact path='/digital' element={<Pages.Digital />}/>
+                <Route exact path='/' element={<Home />}/>
+                <Route exact path='/photography' element={<Photography />}/>
+                <Route exact path='/illustration' element={<Illustration />}/>
+                <Route exact path='/digital' element={<Digital />}/>
             </Routes>
             <Footer />
         </div>
