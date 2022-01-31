@@ -1,9 +1,9 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import { Home } from './pages/home';
-import { Photography } from './pages/Photography';
-import { Illustration } from './pages/Illustration';
-import { Digital } from './pages/Digital';
+import { Home } from './Pages/Home';
+import { Photography } from './Pages/Photography';
+import { Illustration } from './Pages/Illustration';
+import { Digital } from './Pages/Digital';
 import { Header } from './Components/index';
 import { Footer } from './Components/index';
 import './style.css';
