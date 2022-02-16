@@ -20,14 +20,9 @@ export const Photography = () => {
         {'id': 13, 'src':'https://bportfoliopictures.blob.core.windows.net/blackandwhite/IMG_20220213_113719.jpg'},
         {'id': 14, 'src':'https://bportfoliopictures.blob.core.windows.net/blackandwhite/IMG_20220213_113749.jpg'},
         {'id': 15, 'src':'https://bportfoliopictures.blob.core.windows.net/blackandwhite/IMG_20220213_114449.jpg'},
-        {'id': 16, 'src':'https://bportfoliopictures.blob.core.windows.net/blackandwhite/IMG_20220213_114531.jpg'},
-        {'id': 17, 'src':'https://bportfoliopictures.blob.core.windows.net/blackandwhite/IMG_20220213_114827.jpg'},
-        {'id': 18, 'src':'https://bportfoliopictures.blob.core.windows.net/blackandwhite/IMG_20220213_114856.jpg'},
-        {'id': 19, 'src':'https://bportfoliopictures.blob.core.windows.net/colour/IMG_20211114_144927.jpg'},
-        {'id': 20, 'src':'https://bportfoliopictures.blob.core.windows.net/colour/IMG_20220213_114128.jpg'},
-        {'id': 21, 'src':'https://bportfoliopictures.blob.core.windows.net/colour/IMG_20220213_114206.jpg'},
-        {'id': 22, 'src':'https://bportfoliopictures.blob.core.windows.net/colour/IMG_20220213_114310.jpg'},
-        {'id': 23, 'src':'https://bportfoliopictures.blob.core.windows.net/colour/IMG_20220213_115914.jpg'},
+        {'id': 16, 'src':'https://bportfoliopictures.blob.core.windows.net/blackandwhite/IMG_20220213_114856.jpg'},
+        {'id': 17, 'src':'https://bportfoliopictures.blob.core.windows.net/blackandwhite/IMG_20220213_114531.jpg', 'pos':4},
+        {'id': 18, 'src':'https://bportfoliopictures.blob.core.windows.net/blackandwhite/IMG_20220213_114827.jpg'},
     ]
 
     return (

@@ -6,10 +6,14 @@ export const Grid = (pictures) => {
     const displayPictures = (column) => {
         let picturesArray = [];
         for(let i = 0; i < pictures.pictures.length; i++){
-            if(i % 4 === column){
+            if(pictures.pictures[i].pos === column + 1){
+                picturesArray.push(<Picture key={pictures.pictures[i].id} src={pictures.pictures[i].src}/>);
+            }
+            if(i % 4 === column && !(pictures.pictures[i].pos)){
                     picturesArray.push(<Picture key={pictures.pictures[i].id} src={pictures.pictures[i].src}/>);
                 }
             }
+            console.log(picturesArray)
         return picturesArray;
     }                                                                   
 
@@ -18,7 +22,7 @@ export const Grid = (pictures) => {
     return (
         <article>
             <h2 id='gridTitle'>Examples</h2>
-            <section>{pictures.pictures[0].src ? 
+            <section>{pictures.pictures ? 
                 <section id='pictureGrid'> 
                     <div className='gridColumn'>{displayPictures(0)}</div>
                     <div className='gridColumn'>{displayPictures(1)}</div>
