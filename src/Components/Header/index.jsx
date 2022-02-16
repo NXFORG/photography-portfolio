@@ -13,9 +13,9 @@ export const Header = () => {
                 </div>
                 <div id='linkContainer'>
                     <span><Link className='navLink' id='firstLink' to='/'>Artwork</Link></span>
-                    <span><Link className='navLink' to='/photography'>Photography</Link></span>
+                    <span><Link className='navLink' to='/photography'>Black and White Photography</Link></span>
+                    <span><Link className='navLink' to='/colour'>Colour Photography</Link></span>
                     <span><Link className='navLink' to='/illustration'>Illustration</Link></span>
-                    <span><Link className='navLink' to='/digital'>Digital</Link></span>
                 </div>
             </div>
         </nav>
